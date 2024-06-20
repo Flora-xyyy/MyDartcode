@@ -17,11 +17,3 @@ void main() {
 
 
 
-  describeFlybyObjects(flybyObjects).then((_) {
-    print('nothing wrong');
-  }).catchError((error) {
-
-    print('Error: $error');
-  });
-}
-
